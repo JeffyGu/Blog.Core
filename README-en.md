@@ -36,14 +36,14 @@ In the Wwwroot folder under the Blog.core project.
 ``` 
 public static string connectionstring = File.exists (@ "D:my-filedbCountPsw1.txt")? 
 File.readalltext (@ "D:my-filedbCountPsw1.txt"). Trim ():  "server=.;
-Uid=sa;pwd=sa;database=blogdb ";
+Uid=sa;pwd=123;database=blogdb ";
 
 ```
 2, in the Blog.Core.FrameWork layer of the dbhelper.ttinclude, configure their own strings
 ``` 
 public static readonly String connectionstring = File.exists (@ "D:my-filedbCountPsw2.txt")? 
 File.readalltext (@ "D:my-filedbCountPsw2.txt"). Trim ():  "server=.;
-Uid=sa;pwd=sa;database=blogdb ";
+Uid=sa;pwd=123;database=blogdb ";
 ```
 
 *****************************************************
